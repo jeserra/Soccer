@@ -6,7 +6,7 @@ namespace LibreriaSoccerTest
 {
     public class SoccerTeamTest
     {
-        [Fact ]
+        [Fact ] // Cambiar por Theory, Agregar una linea de cada archivo como parametro. Agregar prueba con una linea con formato invalido. 
         public void ParseGameTest()
         {
             string input = "?,(Sat) 17 Aug 2019 (W33),RC Celta Vigo (1),1-3,0-1,Real Madrid (1)";
